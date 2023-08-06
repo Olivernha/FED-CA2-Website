@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/customize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&amp;family=Roboto+Slab:wght@400;700&amp;display=swap"
+          rel="stylesheet">
+    <script src="https://kit.fontawesome.com/520bbd1304.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: #3b3649">
+
+<header class="mb-4 d-lg-flex justify-content-between">
+    <nav class="navbar navbar-expand-lg w-100">
+        <a href="index.html" class="d-inline w-50 ps-5"><img src="img/logo.png" alt="logo" class="w-25 ms-3"></a>
+        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-orange-customize  " id="navbarSupportedContent"
+             style="justify-content: flex-end;">
+            <ul class="navbar-nav ms-3 ">
+                <li class="nav-item">
+                    <a class="nav-link me-5 " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-5 " href="goal.html">Goals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-5 " href="service.html">SP Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-5 " href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-5" href="game.html">Game</a>
+                </li>
+            </ul>
+            <div class="started">
+
+            </div>
+        </div>
+
+    </nav>
+</header>
+
+<main>
+    <div class="container h-100 d-flex justify-content-center">
+
+        <div class="form-body">
+            <div class="row">
+                <div class="form-holder d-flex flex-column justify-content-center align-items-center text-center"
+                     style="  min-height: 100vh;">
+                    <div class="form-content text-center d-flex justify-content-center align-items-center" style="padding: 60px;">
+                        <div class="form-items border border-white p-4 d-inline-block w-100" style="min-width: 540px; border-radius: 10px; text-align: left; transition: all 0.4s ease;">
+                            <h3 class="text-white fs-4 fw-bold mb-3">Survey</h3>
+                            <p class="text-white fs-6 fw-light  mb-4">Fill in the data below.</p>
+                            <form class="requires-validation" id="survey" novalidate>
+
+                                <div class="col-md-12">
+                                    <input class="form-control" type="text" name="name" placeholder="Full Name"
+                                           required>
+                                    <div class="valid-feedback">Username field is valid!</div>
+                                    <div class="invalid-feedback">Username field cannot be blank!</div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input class="form-control" type="email" name="email"
+                                           placeholder="SP E-mail Address" required>
+                                    <div class="valid-feedback">SP Email field is valid!</div>
+                                    <div class="invalid-feedback">SP Email field cannot be blank!</div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <select name="foodcourt" id="foodcourt" class="form-select my-3" required>
+                                        <option selected disabled value="">Favorite Food Court</option>
+                                        <option value="fc1">Food Court 1</option>
+                                        <option value="fc2">Food Court 2</option>
+                                        <option value="fc3">Food Court 3</option>
+                                        <option value="fc4">Food Court 4</option>
+                                        <option value="fc5">Food Court 5</option>
+                                        <option value="fc6">Food Court 6</option>
+                                    </select>
+                                    <div class="valid-feedback">You selected a Favorite foodcourt</div>
+                                    <div class="invalid-feedback">Please select a Favorite foodcourt!</div>
+                                </div>
+
+
+                                <div class="col-md-12">
+                                    <div class="form-check form-check-inline mt-3">
+                                        <input value="student" class="form-check-input" type="radio" name="roleRadio"
+                                               id="role1" required>
+                                        <label class="form-check-label" for="role1">
+                                            Student
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input  class="form-check-input" type="radio" name="roleRadio"
+                                               id="role2" value="teacher" required>
+                                        <label class="form-check-label" for="role2">
+                                            Teacher
+                                        </label>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <label class="mb-3 mr-1">Gender: </label>
+
+                                    <input type="radio" value="male" class="btn-check" name="gender" id="male"
+                                           required>
+                                    <label class="btn btn-sm btn-outline-secondary" for="male">Male</label>
+
+                                    <input type="radio" value="female" class="btn-check" name="gender" id="female"
+                                            required>
+                                    <label class="btn btn-sm btn-outline-secondary" for="female">Female</label>
+
+                                    <input type="radio" value="secret" class="btn-check" name="gender" id="secret"
+                                          required>
+                                    <label class="btn btn-sm btn-outline-secondary" for="secret">Secret</label>
+                                    <div class="valid-feedback mv-up">You selected a gender!</div>
+                                    <div class="invalid-feedback mv-up">Please select a gender!</div>
+                                </div>
+
+                                <div class="col-md-12">
+
+                                    <label >Favourite Department : </label>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" name="department" id="soc" type="radio"
+                                               value="SOC" required>
+                                        <label class="form-check-label" for="soc">SOC</label>
+                                    </div>
+
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" name="department" id="mad" type="radio"
+                                               value="MAD" required>
+                                        <label class="form-check-label" for="mad">MAD</label>
+                                    </div>
+
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" name="department" id="eee" type="radio"
+                                               value="EEE" required>
+                                        <label class="form-check-label" for="eee">EEE</label>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-12 mb-2">
+
+                                    <label for="rank">Rank For School</label>
+                                    <input name="rank" id="rank" type="range" min="1" max="10">
+                                </div>
+                                <div class="my-3">
+                                    <label for="comments" class="form-label">Comment</label>
+                                    <textarea class="form-control" id="comments" placeholder="Leave a comment"
+                                              required></textarea>
+                                    <div class="invalid-feedback">
+                                        Please enter a message in the textarea.
+                                    </div>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="agree" id="agree" required>
+                                    <label class="form-check-label">I confirm that all data are correct</label>
+                                    <div class="invalid-feedback">Please confirm that the entered data are all
+                                        correct!
+                                    </div>
+                                </div>
+                                <div class="form-button mt-3">
+                                    <button id="submit" type="submit" class="btn">Submit</button>
+
+                                </div>
+
+
+                            </form>
+                            <button type="button" id="showBtn" class="btn btn-warning mt-3" data-bs-toggle="modal"
+                                    data-bs-target="#dataModal">
+                                Show Data
+                            </button>
+
+                            <div class="modal fade modal-fullscreen-md-down modal-xl" id="dataModal" data-bs-backdrop="static"
+                                 data-bs-keyboard="false" tabindex="-1" aria-labelledby="dataModalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog" style="overflow: scroll;">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="dataModalLabel">Show Data</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <table class="table" id="table">
+                                                <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Email</th>
+                                                    <th>FoodCourt</th>
+                                                    <th>Role</th>
+                                                    <th>Gender</th>
+                                                    <th>Department</th>
+                                                    <th>Rank</th>
+                                                    <th>Comments</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody id="tableBody">
+                                                <!-- The table rows will be dynamically added using JavaScript -->
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Close
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+<script src="/js/modal.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+</html>

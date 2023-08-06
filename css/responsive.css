@@ -1,0 +1,76 @@
+@media (max-width: 767px) {
+    /* CSS rules for mobile devices */
+    .content-header p:first-child{
+        font-size: 2rem;
+    }
+    .content-header span{
+        font-size: 1.5rem;
+    }
+    .content-header p:last-child{
+        font-size: 1rem !important;
+    }
+    .slope-design{
+        top:-180px;
+    }
+    .passion p:nth-child(2){
+        margin: 2rem 1rem;
+    }
+    .goal-btn{
+        width: 50%;
+    }
+    .interest-text{
+        font-size: 1rem !important;
+        padding: 0 1rem;
+    }
+    .interest-list-gp{
+        /* padding:.5rem 0 !important; */
+    }
+    .wave-design-2{
+        margin-top: -2rem;
+    }
+    .personality-div{
+        margin: 0 !important;
+    }
+    #personality{
+        margin-top: -15px;
+    }
+    .goal{
+        margin-right: 0;
+       
+    }
+    .personal_goal{
+        margin-top: -5px;
+    }
+    .form-content .form-items{
+        min-width: 420px !important;
+        border: none !important;
+    }
+    .sp_heading_title{
+        margin-top: 2rem !important;
+    }
+    .sp_heading_title p{
+        font-size: 1rem !important;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .nav-item a {
+        font-size: 10px;
+        margin-right: 2rem !important;
+    }
+    .wave-design-2{
+        margin-top: -3rem;
+    }
+     .personality-div{
+        margin: 0;
+    }   
+    .personal_goal{
+        margin-top: -5px;
+    }
+    .goal{
+        margin-right: 0;
+       
+    }
+  }
+    
+ 

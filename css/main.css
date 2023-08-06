@@ -1,0 +1,87 @@
+.max-width-72rem {
+    max-width: 72rem;
+}
+.bg-yellow-customize {
+    background-color:#FBD38D !important;
+}
+.text-yellow-customize{
+    color: #FBD38D !important;
+}
+.btn-me:hover {
+    background-color: #f6c56a !important;
+}
+.text-orange-customize {
+    color: #FFEDB4 !important;
+}
+.navbar-nav{
+    --bs-nav-link-color: #FFEDB4 !important;
+}
+.design-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 40rem;
+    z-index: -10;
+}
+.slope-design{
+    position: absolute;
+    left: 0;
+    fill: #5c006c;
+    transform: translate(-6rem, -18rem) rotate(-7deg) skew(0) skewY(0) scaleX(1) scaleY(1);
+    width: 260rem;
+    top: -4px;
+    z-index: -10;
+}
+
+.content-header p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.5rem;
+
+}
+
+.content-header span{
+    font-size: 3.5rem;
+    color: #FBD38D;
+    font-family: 'Roboto Slab', serif;
+}
+.wave-design-1{
+    fill: #ffb54d;
+    margin-top: 2rem;
+    display: block;
+}
+#interest{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    background-image: linear-gradient(to bottom,#ffb54d, #FBD38D);
+    color: #4A5568;
+}
+.wave-design-2{
+    fill: #3c0080;
+    margin-top: -4rem;
+    height: 100%;
+}
+#personality{
+    padding-bottom:4rem;
+    padding-top: 1rem;
+    background-image: linear-gradient(to bottom,#3c0080, #270057);
+    font-family: "Roboto Slab", serif;
+}
+#personality article{
+    color: #c4bddb;
+    padding: 2rem;
+    background-color: #1E035EFF;
+}
+.p_svg_1{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    fill: #D580FFFF;
+}
+#me{
+    background-image: linear-gradient(to bottom,#5c526f,#423d52);
+}
+.card-manual{
+    background-color: #3b3649;
+    color: #c4bddb;
+}
